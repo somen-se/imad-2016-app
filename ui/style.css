@@ -24,7 +24,7 @@ header{
 }
 
 
-}
+
 .menu{
     margin: 120px;
     
@@ -45,7 +45,7 @@ header{
 .nev_menu li a:link,
 .nev_menu li a:visited{
     background-color:lightgrey;
-    font: ""
+    font: "sans-serif";
     display: block;
     padding: 0.2em;
     text-decoration:none;
@@ -92,7 +92,7 @@ header{
     
     float: left;
     width: 30%;
-    padding: 10px
+    padding: 10px;
     font-family: cursive;
     font-size: 20px;
     margin: 35px;
