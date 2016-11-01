@@ -1,6 +1,6 @@
 body {
     
-   background-image: url(ui/vines_and_sunny_sky-wallpaper-1366x768.jpg);
+   background-image:url(imad-2016-app/ui/vines_and_sunny_sky-wallpaper-1366x768.jpg);
    height: 100% ;
     background-size:auto;
    
@@ -60,6 +60,7 @@ header{
 .nev_menu li a:hover{
     background-color: lightsalmon;
     -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
     -ms-transform: scale(2,2);
      transform: scale(2,2);
 }
@@ -100,11 +101,7 @@ header{
         
         
 }
-#rightdiv{
-    width: 50%;
-    background-color: aliceblue;
 
-}
 
 /*animation */
 @keyframes fadeIN {from {opacity: 0;} to {opacity: 1;}}
