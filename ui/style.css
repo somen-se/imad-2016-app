@@ -1,13 +1,13 @@
 body {
     
-   background-image: url(vines_and_sunny_sky-wallpaper-1366x768.jpg);
+   background-image: url(ui/vines_and_sunny_sky-wallpaper-1366x768.jpg);
    height: 100% ;
     background-size:auto;
    
 }
 
 header{
-    background-image: url(cropped-congruent_pentagon.png)
+    background-image: url(ui/cropped-congruent_pentagon.png)
     
 }
 
