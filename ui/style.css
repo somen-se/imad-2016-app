@@ -1,6 +1,7 @@
 body {
     
-   <background-image:"q.jpg">
+   <body background="q.jpg" bgproperties="fixed">; 
+
    height: 100% ;
    
 }
