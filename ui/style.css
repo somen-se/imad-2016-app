@@ -24,7 +24,7 @@ header{
 }
 
 
-}
+
 .menu{
     margin: 120px;
     
@@ -60,8 +60,9 @@ header{
 .nev_menu li a:hover{
     background-color: lightsalmon;
     -webkit-transform: scale(2,2);
-    -ms-transform: scale(2,2);
-     transform: scale(2,2);
+    -moz-transform: scale(2,2);
+        -o-transform: scale(2,2);
+    transform: scale(2,2);
 }
 
 
@@ -88,6 +89,7 @@ header{
     width:70%;
     padding: 35px;
 }
+
 #leftdiv{
     
     float: left;
