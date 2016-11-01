@@ -1,0 +1,157 @@
+body {
+    
+   background-image: url(vines_and_sunny_sky-wallpaper-1366x768.jpg);
+   height: 100% ;
+    background-size:auto;
+   
+}
+
+header{
+    background-image: url(cropped-congruent_pentagon.png)
+    
+}
+
+.container{
+    width: 960px;
+    margin:  50px ;
+    font-family: cursive;
+    padding-top: 13px;
+    height: 100%;
+}
+
+#logo{
+    margin-bottom: 10px;
+}
+
+
+}
+.menu{
+    margin: 120px;
+    
+    background-size: cover;
+}
+.nev_menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nev_menu li{
+    min-width: 18em;
+    float:left;
+    margin-right: 1em;
+    text-align: center;
+}
+.nev_menu li a:link,
+.nev_menu li a:visited{
+    background-color:lightgrey;
+    font: ""
+    display: block;
+    padding: 0.2em;
+    text-decoration:none;
+    font-weight: bold;
+    margin: 0 0 0 0.3em;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+        
+} 
+.nev_menu li a:hover{
+    background-color: lightsalmon;
+    -webkit-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+     transform: scale(2,2);
+}
+
+
+.nav_menu li a:hover{ 
+    background-color: aquamarine;
+    
+}
+
+
+.nev_menu a {
+    display: block;
+    width: 80px;
+    
+}
+
+.clear{
+    clear:both;
+}
+#mainbody{
+     background-blend-mode: color;
+}
+#welcomediv{
+
+    width:70%;
+    padding: 35px;
+}
+#leftdiv{
+    
+    float: left;
+    width: 30%;
+    padding: 10px
+    font-family: cursive;
+    font-size: 20px;
+    margin: 35px;
+    box-shadow: 10px 10px 5px 
+        
+        
+}
+#rightdiv{
+    width: 50%;
+    background-color: aliceblue;
+
+}
+
+/*animation */
+@keyframes fadeIN {from {opacity: 0;} to {opacity: 1;}}
+@-webkit-keyframes fadeIN {from {opacity: 0;} to {opacity: 1;}}
+@-moz-keyframes fadeIN {from {opacity: 0;} to {opacity: 1;}}
+
+
+/*.fade-in{
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    
+    animation-duration: 0.1s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+}*/
+@keyframes mymove{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+@-webkit-keyframes mymove{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+@-moz-keyframes mymove{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+#welcomediv h2{
+    position: relative;
+    animation: mymove 5s infinite; 
+    -webkit-animation: mymove 5s infinite; 
+    -moz-animation: mymove 5s infinite; 
+}
