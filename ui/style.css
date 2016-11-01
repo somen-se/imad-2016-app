@@ -43,20 +43,8 @@ header{
     text-align: center;
 }
 .nev_menu li a:link,
-.nev_menu li a:visited{
-    background-color:lightgrey;
-    font: ""
-    display: block;
-    padding: 0.2em;
-    text-decoration:none;
-    font-weight: bold;
-    margin: 0 0 0 0.3em;
-    -webkit-border-radius:3px;
-    -moz-border-radius:3px;
-    border-radius: 3px;
-    box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
-        
-} 
+
+
 .nev_menu li a:hover{
     background-color: lightsalmon;
     -webkit-transform: scale(2,2);
@@ -90,18 +78,7 @@ header{
     padding: 35px;
 }
 
-#leftdiv{
-    
-    float: left;
-    width: 30%;
-    padding: 10px
-    font-family: cursive;
-    font-size: 20px;
-    margin: 35px;
-    box-shadow: 10px 10px 5px 
-        
-        
-}
+
 #rightdiv{
     width: 50%;
     background-color: aliceblue;
