@@ -81,9 +81,7 @@ header{
 .clear{
     clear:both;
 }
-#mainbody{
-     background-blend-mode: color;
-}
+
 #welcomediv{
 
     width:70%;
