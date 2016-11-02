@@ -1,8 +1,16 @@
+html { 
+  background: url("/ui/q.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
 body {
     
-background-image:url("/ui/q.jpg");
-height: 100% ;
-    background-size:fixed;
+
    
 }
 
