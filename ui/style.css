@@ -1,8 +1,8 @@
 body {
     
 background-image:url("/ui/q.jpg");
-
-   height: 100% ;
+height: 100% ;
+    background-size:auto;
    
 }
 
