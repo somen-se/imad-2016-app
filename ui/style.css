@@ -2,7 +2,7 @@ body {
     
 background-image:url("/ui/q.jpg");
 height: 100% ;
-    background-size:auto;
+    background-size:fixed;
    
 }
 
